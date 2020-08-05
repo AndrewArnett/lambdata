@@ -57,3 +57,16 @@ class Tiger(Animal):
     # Example of overriding
     def run(self):
         return 'Scamperwoosh!'
+
+
+class SportType:
+    """Defining a sports team"""
+    def __init__(self, name, ball_type, score_type):
+        self.name = str(name)
+        self.ball_type = ball_type
+        self.score_type = score_type
+
+    def cheering(self):
+        return "GGGOOOOOOOO" + name
+
+        

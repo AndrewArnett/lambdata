@@ -4,6 +4,7 @@ lambdata - a collection of Data Science helper functions
 
 import pandas as pd
 import numpy as np
-from lambdata_andrewarnett.dataframe_helper import report_missing_values
+
+from lambdata_andrewarnett.dataframe_helper import shape_head, baseline
 
 Test = pd.DataFrame(np.ones(10))

@@ -14,7 +14,7 @@ with open("README.md", "r") as file:
 
 setuptools.setup(
     name="lambdata-andrewarnett",
-    version="0.0.1",
+    version="0.0.2",
     author="Andrew Arnett",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
