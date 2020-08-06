@@ -66,7 +66,6 @@ class SportType:
         self.ball_type = ball_type
         self.score_type = score_type
 
-    def cheering(self):
-        return "GGGOOOOOOOO" + name
+
 
         

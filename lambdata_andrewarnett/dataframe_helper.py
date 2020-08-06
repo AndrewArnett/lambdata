@@ -10,7 +10,7 @@ def shape_head(df):
     head = df.head()
     return shape, head
 
-def baseline(target):
+def baseline(target, df):
     """calculates baseline of target """
     y = df[target]
     return y.value_counts(normalize=True)

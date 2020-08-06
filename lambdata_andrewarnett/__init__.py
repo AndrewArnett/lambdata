@@ -7,4 +7,4 @@ import numpy as np
 
 from lambdata_andrewarnett.dataframe_helper import shape_head, baseline
 
-Test = pd.DataFrame(np.ones(10))
+TEST = pd.DataFrame(np.ones(10))
